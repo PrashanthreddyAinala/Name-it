@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+
+body {
+  background-color: #374151;
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Akaya Kanadaka", cursive;
+}
+
+/* search style */
+.Search {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #d1d5db;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f9fafb;
+  border: none;
+}
+
+/* header style */
+
+.header {
+  transition: max-width 1s, min-width 1s;
+}
+
+.header-text {
+  transition: font-size 1s;
+}
+
+.header-expanded {
+  min-width: 300px;
+  max-width: 450px;
+}
+
+.header-contract {
+  min-width: 150px;
+  max-width: 250px;
+}
+
+.header-text-expanded {
+  font-size: 50px;
+}
+
+.header-text-contract {
+  font-size: 25px;
+}
+
+/* card style */
+.result-card {
+  background-color: #d1d5db;
+  padding: 5px 25px;
+  margin: 10px 15px;
+  display: inline-block;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.result-card p {
+  margin: 0px;
+}
+
+.result-card:hover {
+  background: #4a5079;
+}
+
+.card-name {
+  margin: 100px 50px 0px 50px;
+}
+
+.card-link {
+  text-decoration: none;
+}
